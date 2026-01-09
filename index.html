@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,38 +28,46 @@
 
     <section id="banner">
             <div class="banner-content">
-                <p id="banner-early">Early access now open</p>
+                <p id="banner-early">Early Access Now Open</p>
                 <h1>Structured Thinking,<br><span class="h1-green">Not Just Note-Taking.</span></h1>
                 <p>A private space to store notes, links, and learning summaries — designed to</p>
                 <p>help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
             </div>
-            <div>
-                <button class="button">Start Building Your Vault</button>
-                <button class="button2">See How It Works</button>
+            <div class="banner-buttons">
+                <button class="button">Start Building Your Vault <i class="fa-solid fa-arrow-right"></i></button>
+                <button class="button2"><i class="fa-solid fa-play"></i> See How It Works</button>
             </div>
     </section>
 
     <section class="notes">
-        <h2>Notes Don't Fail, Structure Does.</h2>
+        <h2><br>Notes Don't Fail, Structure Does.</h2>
         <p class="notes-subtitles">You're not bad at learning. Your tools just weren't built for how knowledge actually works.</p>
         <div class="notes-box">
             <div class="notes-card">
-                <img src="assets/Vector.png" class="notes-icon" alt="">
+                <div class="notes-icon">
+                    <img src="assets/Vector.png" alt="">
+                </div>
                 <h3>Scattered Notes</h3>
                 <p>Your ideas live in 10 different apps, none of them connected.</p>
             </div>
             <div class="notes-card">
-                <img src="assets/Bookmarks.png" class="notes-icon" alt="">
+                <div class="notes-icon">
+                    <img src="assets/Bookmarks.png" alt="">
+                </div>
                 <h3>Bookmark Overload</h3>
                 <p>Hundreds of saved links you'll never revisit or remember.</p>
             </div>
             <div class="notes-card">
-                <img src="assets/Brain.png" class="notes-icon" alt="">
+                <div class="notes-icon">
+                    <img src="assets/Brain.png" alt="">
+                </div>
                 <h3>No Idea Connections</h3>
                 <p>Insights stay isolated, never building into bigger understanding.</p>
             </div>
             <div class="notes-card">
-                <img src="assets/Info.png" class="notes-icon" alt="">
+                <div class="notes-icon">
+                    <img src="assets/Info.png" alt="">
+                </div>
                 <h3>Forgetting What You Learned</h3>
                 <p>Knowledge fades because there's no system to retain it.</p>
             </div>
@@ -74,12 +83,10 @@
                 <div class="second-brain-label">THE SOLUTION</div>
                 <h2>Your Second Brain,<br>Structured By Design.</h2>
                 <p>Personal Knowledge Vault isn't another note-taking app. z<br>It's a thinking environment where every note, link, and summary<br>becomes part of an interconnected web of understanding.</p>
-                <ul class="feature-list">
-                    <li>Capture ideas with structure built-in from day one</li>
-                    <li>Connect related concepts automatically as you write</li>
-                    <li>Build lasting knowledge through reflection prompts</li>
-                    <li>Find anything instantly with semantic search</li>
-                </ul>
+                <p class="feature-list-items"><img src="assets/CheckCircle.png" alt=""> Capture ideas with structure built-in from day one</p>
+                <p class="feature-list-items"><img src="assets/CheckCircle.png" alt=""> Connect related concepts automatically as you write</p>
+                <p class="feature-list-items"><img src="assets/CheckCircle.png" alt=""> Build lasting knowledge through reflection prompts</p>
+                <p class="feature-list-items"><img src="assets/CheckCircle.png" alt=""> Find anything instantly with semantic search</p>
             </div>
         </div>
     </section>
@@ -88,7 +95,7 @@
         <div class="early-access-2">
             <h2>Ready To Think More Clearly?</h2>
             <p>Join thousands of learners who are building their personal knowledge vaults.<br>Start free, no credit card required.</p>
-            <button class="button">Get Early Access</button>
+            <button class="button">Get Early Access <i class="fa-solid fa-arrow-right"></i></button>
             <p class="early-access-note">Free during early access • No credit card needed</p>
         </div>
     </section>
@@ -101,15 +108,17 @@
         <div class="social">
             <p>Social Links</p>
                 <div class="icons">
-                    <a href=""><img src="images/icons/facebook.png" alt=""></a>
-                    <a href=""><img src="images/icons/twitter.png" alt=""></a>
-                    <a href=""><img src="images/icons/insta.png" alt=""></a>
+                    <button class="button3"><i class="fa-brands fa-x-twitter"></i></button>
+                    <button class="button3"><i class="fa-brands fa-linkedin"></i></button>
+                    <button class="button3"><i class="fa-brands fa-square-facebook"></i></button>
                 </div>
         </div>
         
     </footer>
+    
     <div class="copyright">
-            © 2026 Personal Knowledge Vault. All rights reserved.
+        <hr>
+        © 2026 Personal Knowledge Vault. All rights reserved.
     </div>
 </body>
 </html>
