@@ -28,7 +28,8 @@
     padding: 12.5px 16px;
     cursor: pointer;
 }
-/* main */
+
+/* nav */
 .logo{
     margin-top: 18px;
     margin-bottom: 16px;
@@ -55,6 +56,7 @@ nav .menu a{
     color: #000000;
 }
 
+/*banner*/
 #banner{
     background: url("../Assignment-1/assets/hero-bg.png");
     text-align: center;
@@ -63,13 +65,8 @@ nav .menu a{
     height: 674px;
 }
 
-
-/* #banner .banner-content{
-    vertical-align: center;
-} */
 .banner-content h1{
-    width: 770px;
-    height: 168px;
+    text-align: center;
 }
 .banner-content .h1-green{
     color: #30B868;
@@ -86,4 +83,134 @@ nav .menu a{
     color: #30B868;
     padding: 8px 12px;
     border-radius: 20px;
+}
+
+/* notes section */
+.notes{
+    text-align: center;
+
+}
+
+.notes h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+
+.notes-subtitle{
+    color: #627382;
+}
+
+.notes .notes-box{
+    margin: 44px 120px 0 120px;
+    display: flex;
+    gap: 24px;
+}
+
+.notes-card {
+    width: 322px;
+    height: 300px;
+    background-color: white;
+    padding: 24px 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.045);
+}
+
+.notes-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+}
+
+.notes-card h3 {
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.notes-card p {
+    color: #718096;
+    line-height: 1.6;
+}
+
+/*second-brain*/
+.second-brain {
+    padding: 120px 120px 120px 120px;
+}
+
+.second-brain-content{
+    display: flex;
+}
+.second-brain-image{
+    margin-right: 60px;
+}
+.second-brain h2{
+    font-size: 48px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.second-brain p{
+    line-height: 20px;
+    color: #627382;
+    width: 700px;
+    height: 60px;
+    margin-bottom: 40px;
+}
+.second-brain-label{
+    line-height: 20px;
+    color: #30B868;
+    margin-top: 120px;
+}
+.feature-list{
+    list-style-type: none;
+}
+
+/* early-access */
+.early-access {
+    padding: 2px 120px 120px 120px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.early-access .early-access-2{
+    background-color: #F7F6F2;
+    padding: 80px 40px 80px 40px;
+}
+
+.early-access h2{
+    color: #000000;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.early-access p{
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.early-access .early-access-note{
+    color: #627382;
+    margin-top: 16px;
+}
+
+/* footer */
+footer{
+    background-color: #001931;
+    color: white;
+    width: 100%;
+    height: 348px;
+    padding: 120px 120px 80px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright {
+    text-align: center;
+    background-color: #001931;
+    color: #FAFAFA;
+    height: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 120px 30px 120px;
 }
