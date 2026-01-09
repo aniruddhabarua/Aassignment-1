@@ -69,7 +69,7 @@ nav .menu a{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    background-color: burlywood;
+    /* background-color: burlywood; */
     max-width: 100%;
     height: 674px;
 }
